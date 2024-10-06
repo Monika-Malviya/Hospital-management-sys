@@ -1,9 +1,10 @@
-**Database Overview**<br>
+# Hospital Managment System
+## Database Overview<br>
 The HMS database is designed to manage various aspects of hospital operations, including patient information, doctor details, billing, appointments, and prescriptions.
 
-**Tables and Their Purpose**<br>
+## Tables and Their Purpose<br>
 
-**1. Patients**<br>
+## 1.Patients<br>
 **Purpose**: Stores information about patients.<br>
 **Key Fields**:<br>
 **patient_id**: Unique identifier for each patient.<br>
@@ -14,7 +15,7 @@ The HMS database is designed to manage various aspects of hospital operations, i
 **email**: Email address of the patient.<br>
 **doctor_id**: References the doctor assigned to the patient.<br>
 
-**2. Doctors**<br>
+## 2.Doctors<br>
 **Purpose**: Stores information about doctors.<br>
 **Key Fields**:<br>
 **doctor_id**: Unique identifier for each doctor.<br>
@@ -25,7 +26,7 @@ The HMS database is designed to manage various aspects of hospital operations, i
 **date_hired**: Date when the doctor was hired.<br>
 **appointment_id**: References appointments associated with the doctor.<br>
 
-**3. Billing**<br>
+## 3.Billing<br>
 **Purpose**: Manages billing information for appointments.<br>
 **Key Fields**:<br>
 **billing_id**: Unique identifier for each billing record.<br>
@@ -34,7 +35,7 @@ The HMS database is designed to manage various aspects of hospital operations, i
 **billing_date**: Date when the billing was done.<br>
 **patient_id**: References the patient associated with the billing.<br>
 
-**4. Appointments**<br>
+## 4.Appointments<br>
 **Purpose**: Manages appointment details between patients and doctors.<br>
 **Key Fields**:<br>
 **appointment_id**: Unique identifier for each appointment.<br>
@@ -44,7 +45,7 @@ The HMS database is designed to manage various aspects of hospital operations, i
 **appointment_time**: Time of the appointment.<br>
 **billing_id**: References the billing record for the appointment.<br>
 
-**5. Prescriptions**<br>
+## 5.Prescriptions<br>
 **Purpose**: Stores prescription details issued during appointments.<br>
 **Key Fields**:<br>
 **prescription_id**: Unique identifier for each prescription.<br>
